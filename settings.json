@@ -1,0 +1,66 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.useInlineCompletions": true,
+	"editor.tabSize": 2,
+	"editor.wordWrap": "on",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"diffEditor.wordWrap": "on",
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDelete": false,
+	"git.autofetch": true,
+	"workbench.iconTheme": "a-file-icon-vscode",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"editor.tabCompletion": "on",
+	"editor.acceptSuggestionOnEnter": "smart",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": false,
+		"strings": true
+	},
+	"editor.insertLineAfter": false,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 2,
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+	"workbench.sideBar.location": "right",
+	"scm.diffDecorationsGutterVisibility": "hover",
+	"scm.diffDecorationsGutterWidth": 2,
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false,
+		"javascript": false,
+		"css": false,
+		"javascriptreact": false,
+		"scss": false,
+		"html": false
+	},
+	"explorer.compactFolders": false,
+	"editor.suggestSelection": "first",
+	"javascript.autoClosingTags": true,
+	"files.associations": {
+		"*.jsx": "javascriptreact"
+	},
+	"prettier.bracketSameLine": true,
+	"zenMode.centerLayout": false,
+	"editor.fontLigatures": true,
+	"liveServer.settings.CustomBrowser": "firefox:PrivateMode",
+	"terminal.integrated.enableMultiLinePasteWarning": false,
+	"editor.fontWeight": "bold",
+	"prettier.bracketSpacing": true,
+	"security.workspace.trust.untrustedFiles": "open",
+	"editor.fontFamily": "FiraCode Nerd Font",
+	"workbench.colorTheme": "Horizon Bold"
+}
