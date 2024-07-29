@@ -1,10 +1,5 @@
 {
-  "workbench.colorTheme": "Material Theme Ocean",
-  "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-  "workbench.sideBar.location": "right",
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // **Editor Settings**
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 16,
   "editor.lineHeight": 1.8,
@@ -16,18 +11,28 @@
   "editor.minimap.enabled": true,
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
-  "editor.cursorStyle": "line",
+  "editor.cursorStyle": "block",
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.renderWhitespace": "all",
   "editor.renderControlCharacters": true,
   "editor.rulers": [80, 120],
   "editor.guides.indentation": true,
+  "editor.fontWeight": "300",
+  "editor.linkedEditing": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // **Prettier Settings**
+  "prettier.singleQuote": false,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "always",
+  "prettier.printWidth": 100,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.bracketSameLine": true,
+
+  // **File and Folder Exclusion Settings**
   "files.autoSave": "onWindowChange",
-  "files.associations": {
-    "*.js": "javascriptreact",
-    "*.ts": "typescriptreact"
-  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
@@ -37,38 +42,57 @@
     "**/node_modules": true,
     "**/bower_components": true
   },
+
+  // **Workbench Settings**
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "newUntitledFile",
-  "workbench.editor.enablePreview": false,
   "workbench.editor.showTabs": "multiple",
   "workbench.statusBar.visible": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.colorTheme": "Dark Magic Tokyo",
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.layoutControl.enabled": false,
+
+  // **Terminal Settings**
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontWeight": "normal",
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.cursorStyle": "block",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
-  "breadcrumbs.enabled": true,
+
+  // **Explorer Settings**
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "extensions.ignoreRecommendations": false,
+  "explorer.compactFolders": false,
+  "symbols.hidesExplorerArrows": false,
+
+  // **Git and GitHub Settings**
+  "git.autofetch": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "javascript": false,
+    "css": true
+  },
+
+  // **Window and Zoom Settings**
   "window.zoomLevel": 0,
+  "window.commandCenter": false,
+
+  // **Javascript and Typescript Settings**
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "typescriptreact"
-  },
+
+  // **Emmet Settings**
   "emmet.triggerExpansionOnTab": true,
-  "prettier.singleQuote": false,
-  "prettier.trailingComma": "all",
-  "prettier.arrowParens": "always",
-  "prettier.printWidth": 100,
-  "prettier.tabWidth": 2,
-  "prettier.useTabs": false,
-  "workbench.activityBar.location": "hidden",
-  "editor.fontWeight": "bold",
-  "git.autofetch": true,
-  "github.copilot.editor.enableAutoCompletions": true
+  "workbench.editor.enablePreview": false,
+  "zenMode.centerLayout": false,
+  "zenMode.restore": false,
+  "window.menuBarVisibility": "compact"
 }
